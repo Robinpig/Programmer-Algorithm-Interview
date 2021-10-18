@@ -58,7 +58,7 @@ func Reverse(node *LNode) {
 	node.Next = pre
 }
 
-func main() {
+func main1() {
 	head := &LNode{}
 	CreateNode(head, 8)
 	PrintNode("before reverse: ", head)
